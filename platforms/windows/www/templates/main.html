@@ -1,0 +1,56 @@
+﻿<ion-view hide-nav-bar="true" id="slide" style="background-image: url('img/image1.jpg')" class="submission" >
+
+    <!-- <div class="header-logo">
+        <img src="img/logo-white.png" class="logo-img">
+    </div> -->
+
+    <ion-slide-box on-slide-changed="slideHasChanged($index)">
+        <!--<h1>logo icon</h1>-->
+        <ion-slide class="page" id="slide">
+            <div class="header-logo">
+                <img src="img/logo-white.png" class="logo-img">
+            </div>
+        </ion-slide>
+        <ion-slide class="page" id="slide">
+            <div class="detail">
+                <h1>Automate</h1>
+                <h3>Booking, Confirmations and Reminders</h3>
+            </div>
+        </ion-slide>
+        <ion-slide  class="page" id="slide">
+            <div class="detail">
+                <h1>Customers</h1>
+                <h3>Allow your customers to book time with you online anytime.</h3>
+            </div>
+        </ion-slide>
+        <ion-slide  class="page" id="slide">
+            <div class="detail">
+                <h1>Customize</h1>
+                <h3>Determine when you can be booked and appointment types</h3>
+            </div>
+        </ion-slide>
+        <ion-slide class="page" id="slide">
+            <div class="detail">
+                <h1>Grow</h1>
+                <h3>More Booked Appointments and Less Phone Tag</h3>
+            </div>
+        </ion-slide>
+        <ion-slide  class="page" id="slide">
+            <div class="detail">
+                <h1>Integrate</h1>
+                <h3>Outlook, Google, Mail Chimp, Stripe, Authorize.net</h3>
+            </div>
+        </ion-slide>
+        <ion-slide class="page" id="slide">
+            <div class="detail">
+                <h1>Embed</h1>
+                <h3>Embed into Square Space, Weebly, Duda, Wix, Wordpress and almost every other website. </h3>
+            </div>
+        </ion-slide>
+
+    </ion-slide-box>
+    <div class="social">
+        <a class="login" ng-click="login()">Login</a>
+        <a class="signup" ng-click="signup()" style="background-color: maroon">SignUp</a>
+    </div>
+</ion-view>

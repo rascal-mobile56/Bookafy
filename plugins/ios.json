@@ -1,0 +1,33 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "app.bookafy.com"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "app.bookafy.com"
+        },
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "app.bookafy.com"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "app.bookafy.com"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "app.bookafy.com"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "app.bookafy.com"
+        },
+        "ionic-plugin-keyboard": {
+            "PACKAGE_NAME": "app.bookafy.com"
+        }
+    },
+    "dependent_plugins": {}
+}
